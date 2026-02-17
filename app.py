@@ -23,7 +23,7 @@ new_book=st.text_input("Add book")
 if st.button("Add"):
   st.write(new_book)
 
-hats["aaaaa", "bbbbbb", "ccccc"]
+hats=["aaaaa", "bbbbbb", "ccccc"]
 user_input_letter=st.text_input("Letter")
 if st.button("Check Letter"):
   if user_input_letter.strip()=="":
