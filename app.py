@@ -22,13 +22,3 @@ if st.button("Check book"):
 new_book=st.text_input("Add book")
 if st.button("Add"):
   st.write(new_book)
-
-hats=["aaaaa", "bbbbbb", "ccccc"]
-user_input_letter=st.text_input("Letter")
-if st.button("Check Letter"):
-  if user_input_letter.strip()=="":
-    st.warning("PLease enter a letter")
-  elif user_input_letter in hats:
-    st.success("The book exists in the database")
-  else:
-    st.error("The book is not in the database")
