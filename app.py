@@ -1,5 +1,5 @@
 import streamlit as st
-books = ["The A.B.C. Murders", "Everyone on this train is a suspect", "The great Gatsby", "Nineteen Eighty-Four", "To Kill a Mockingbird", "The Hobbit"]
+books = ["The A.B.C. Murders", "Everyone on this train is a suspect", "The great Gatsby", "Nineteen Eighty-Four", "1984", "To Kill a Mockingbird", "The Hobbit"]
 st.title("Book checker app")
 st.write("Enter a book title to check if it's it the database")
 user_input=st.text_input("Book title")
